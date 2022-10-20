@@ -1,8 +1,8 @@
 #!/bin/sh
 
 PORT=8080
-UUID=d8304c5e-5d35-4c33-8878-618c4305c907
-WebPage=https://bing.com
+UUID=aca39293-e6cb-47d0-8411-af67500e756e
+WebPage=https://www.vecteezy.com
 CaddyConfig=https://raw.githubusercontent.com/bsefwe/Rail/main/etc/Caddyfile
 XRayConfig=https://raw.githubusercontent.com/bsefwe/Rail/main/etc/xray.json
 Xray_Newv=`wget --no-check-certificate -qO- https://api.github.com/repos/XTLS/Xray-core/tags | grep 'name' | cut -d\" -f4 | head -1 | cut -b 2-`
